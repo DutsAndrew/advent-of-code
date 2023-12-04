@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Arrays;
 
-public class day1Solution {
+public class day1 {
   public static void main(String[] args) {
     try {
-      String filePath = "problemInputs/day1Input.txt";
+      String filePath = "problemInputs/day1.txt";
       List<String> lines = Files.readAllLines(Paths.get(filePath));
 
       int sum = 0;
